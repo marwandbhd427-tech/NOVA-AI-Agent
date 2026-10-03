@@ -1,0 +1,6 @@
+NOVA V7.2 TESTS
+1: ابحث وتحقق عن Bali Maak
+2: اعطيني معلومة عن أغنية Bali Maak
+3: سؤال باسم مشترك: اعرض الاحتمالات ولا تخمن
+4: project dashboard Snake_Game
+5: project qa Snake_Game

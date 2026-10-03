@@ -1,0 +1,40 @@
+NOVA V7.0.0 — اختبارات سريعة
+
+1) تشغيل:
+   python main.py
+   يجب أن يظهر: NOVA V7.0.0 READY
+
+2) فحص مشروع موجود:
+   project brain snake_game
+   أو:
+   project dashboard snake_game
+
+3) اختبار النسخ:
+   project checkpoint snake_game
+   ثم:
+   project versions snake_game
+
+4) اختبار الاعتماديات:
+   project deps snake_game
+   project deps write snake_game
+   يجب إنشاء requirements.txt.
+
+5) اختبار الذاكرة/الاستمرارية:
+   أعد تشغيل NOVA ثم:
+   project brain snake_game
+   يجب أن يظهر نفس خريطة المشروع والميزات المسجلة.
+
+6) اختبار الوكيل متعدد الأدوار — مشروع جديد:
+   اعمل لعبة بسيطة ببايثون
+   يجب أن ترى:
+   Project Manager → Project Planner → Coding Agent → Tests/Runtime.
+
+7) اختبار التعديل الذكي:
+   أضف شاشة إعدادات للمشروع
+   يجب أن يتجه إلى المشروع الأخير بدل إنشاء مشروع جديد.
+
+8) اختبار التراجع:
+   project rollback snake_game
+   يجب استرجاع آخر Snapshot متاح.
+
+ملاحظة: تشغيل GUI/Pygame على Pydroid قد يعطي Runtime متعلقًا بالجهاز. NOVA V7 يحاول فصل أخطاء البيئة عن أخطاء الكود.

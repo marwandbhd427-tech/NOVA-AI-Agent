@@ -1,0 +1,5 @@
+curses
+dataclasses
+pygame
+termios
+tty

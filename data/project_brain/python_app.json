@@ -1,0 +1,33 @@
+{
+  "project": "python_app",
+  "features": [],
+  "decisions": [],
+  "history": [
+    {
+      "time": 1790972595.4577878,
+      "event": "created",
+      "details": "اصنع تطبيق ملاحضات و يمكن فيه ان اسجل فيه ما اريد"
+    }
+  ],
+  "updated_at": 1790972595.5182962,
+  "files": [
+    "main.py",
+    "tests/test_main.py"
+  ],
+  "python_files": [
+    "main.py",
+    "tests/test_main.py"
+  ],
+  "functions": 11,
+  "classes": 2,
+  "imports": [
+    "json",
+    "os",
+    "tkinter",
+    "unittest"
+  ],
+  "entrypoints": [
+    "main.py"
+  ],
+  "project_type": "desktop"
+}

@@ -1,0 +1,49 @@
+{
+  "project": "Snake_Game",
+  "features": [],
+  "decisions": [],
+  "history": [],
+  "files": [
+    "main.py",
+    "snake.py",
+    "game.py",
+    "utils.py",
+    "food.py",
+    "constants.py",
+    "requirements.txt",
+    "store.py",
+    "tests/test_main.py"
+  ],
+  "python_files": [
+    "main.py",
+    "snake.py",
+    "game.py",
+    "utils.py",
+    "food.py",
+    "constants.py",
+    "store.py",
+    "tests/test_main.py"
+  ],
+  "functions": 34,
+  "classes": 10,
+  "imports": [
+    "constants",
+    "curses",
+    "dataclasses",
+    "food",
+    "game",
+    "os",
+    "random",
+    "snake",
+    "store",
+    "sys",
+    "time",
+    "typing",
+    "unittest"
+  ],
+  "entrypoints": [
+    "main.py"
+  ],
+  "project_type": "game",
+  "updated_at": 1788949235.0105186
+}

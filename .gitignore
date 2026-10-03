@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+build/
+bin/
+.gradle/
+.idea/
+.vscode/
+
+groq_key.txt
+.nova_context.json
+00.zip

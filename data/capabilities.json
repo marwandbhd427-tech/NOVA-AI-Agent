@@ -1,0 +1,133 @@
+{
+  "project_create": {
+    "name": "project_create",
+    "description": "Create a project",
+    "inputs": [
+      "request"
+    ],
+    "outputs": [
+      "project"
+    ],
+    "risk": "medium",
+    "enabled": true,
+    "updated_at": 1791042220.8796184
+  },
+  "project_modify": {
+    "name": "project_modify",
+    "description": "Modify an existing project",
+    "inputs": [
+      "project",
+      "request"
+    ],
+    "outputs": [
+      "patch"
+    ],
+    "risk": "medium",
+    "enabled": true,
+    "updated_at": 1791042220.8796208
+  },
+  "project_test": {
+    "name": "project_test",
+    "description": "Run compile and tests",
+    "inputs": [
+      "project"
+    ],
+    "outputs": [
+      "test_report"
+    ],
+    "risk": "low",
+    "enabled": true,
+    "updated_at": 1791042220.8796222
+  },
+  "project_run": {
+    "name": "project_run",
+    "description": "Run project entry point",
+    "inputs": [
+      "project"
+    ],
+    "outputs": [
+      "runtime_report"
+    ],
+    "risk": "medium",
+    "enabled": true,
+    "updated_at": 1791042220.8796227
+  },
+  "project_snapshot": {
+    "name": "project_snapshot",
+    "description": "Create rollback point",
+    "inputs": [
+      "project"
+    ],
+    "outputs": [
+      "snapshot"
+    ],
+    "risk": "low",
+    "enabled": true,
+    "updated_at": 1791042220.8796232
+  },
+  "project_rollback": {
+    "name": "project_rollback",
+    "description": "Restore a rollback point",
+    "inputs": [
+      "project"
+    ],
+    "outputs": [
+      "project"
+    ],
+    "risk": "high",
+    "enabled": true,
+    "updated_at": 1791042220.8796237
+  },
+  "project_health": {
+    "name": "project_health",
+    "description": "Analyze project health",
+    "inputs": [
+      "project"
+    ],
+    "outputs": [
+      "health_report"
+    ],
+    "risk": "low",
+    "enabled": true,
+    "updated_at": 1791042220.8796246
+  },
+  "project_research": {
+    "name": "project_research",
+    "description": "Research with evidence",
+    "inputs": [
+      "question"
+    ],
+    "outputs": [
+      "evidence"
+    ],
+    "risk": "low",
+    "enabled": true,
+    "updated_at": 1791042220.8796256
+  },
+  "filesystem": {
+    "name": "filesystem",
+    "description": "Read/write workspace files",
+    "inputs": [
+      "path"
+    ],
+    "outputs": [
+      "file_result"
+    ],
+    "risk": "medium",
+    "enabled": true,
+    "updated_at": 1791042220.879626
+  },
+  "android_intelligence": {
+    "name": "android_intelligence",
+    "description": "Analyze Android/Pydroid readiness",
+    "inputs": [
+      "project"
+    ],
+    "outputs": [
+      "android_report"
+    ],
+    "risk": "low",
+    "enabled": true,
+    "updated_at": 1791042220.8796265
+  }
+}

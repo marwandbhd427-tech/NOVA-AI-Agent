@@ -1,0 +1,35 @@
+{
+  "project": "calculator_app",
+  "features": [],
+  "decisions": [],
+  "history": [
+    {
+      "time": 1790972404.4320567,
+      "event": "created",
+      "details": "حاسبة"
+    }
+  ],
+  "updated_at": 1790972404.4738102,
+  "files": [
+    "main.py",
+    "calculator.py",
+    "tests/test_main.py"
+  ],
+  "python_files": [
+    "main.py",
+    "calculator.py",
+    "tests/test_main.py"
+  ],
+  "functions": 13,
+  "classes": 1,
+  "imports": [
+    "os",
+    "sys",
+    "typing",
+    "unittest"
+  ],
+  "entrypoints": [
+    "main.py"
+  ],
+  "project_type": "python"
+}

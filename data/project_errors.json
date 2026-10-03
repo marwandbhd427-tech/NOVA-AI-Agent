@@ -1,0 +1,76 @@
+{
+  "SnakeGame": [
+    {
+      "time": 1788804642.3195987,
+      "file": "main.py",
+      "error": "\u001b(B\u001b)0\u001b[?1049h\u001b[1;24r\u001b[m\u000f\u001b[4l\u001b[?1l\u001b>\nTraceback (most recent call last):\n  File \"/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.13/curses/__init__.py\", line 78, in wrapper\n    cbreak()\n    ~~~~~~^^\n_curses.error: cbreak() returned ERR\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 191, in <module>\n    curses.wrapper(main)\n    ~~~~~~~~~~~~~~^^^^^^\n  File \"/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.13/curses/__init__.py\", line 100, in wrapper\n    nocbreak()\n    ~~~~~~~~^^\n_curses.error: nocbreak() returned ERR\n"
+    },
+    {
+      "time": 1788804670.5037153,
+      "file": "main.py",
+      "error": "\u001b(B\u001b)0\u001b[?1049h\u001b[1;24r\u001b[m\u000f\u001b[4l\u001b[?1l\u001b>Curses error: unable to initialize terminal.\nThis game requires a terminal that supports curses.\n\n"
+    },
+    {
+      "time": 1788806064.1374855,
+      "file": "main.py",
+      "error": "\u001b(B\u001b)0\u001b[?1049h\u001b[1;24r\u001b[m\u000f\u001b[4l\u001b[?1l\u001b>\nTraceback (most recent call last):\n  File \"/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.13/curses/__init__.py\", line 78, in wrapper\n    cbreak()\n    ~~~~~~^^\n_curses.error: cbreak() returned ERR\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 151, in <module>\n    curses.wrapper(main)\n    ~~~~~~~~~~~~~~^^^^^^\n  File \"/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.13/curses/__init__.py\", line 100, in wrapper\n    nocbreak()\n    ~~~~~~~~^^\n_curses.error: nocbreak() returned ERR\n"
+    },
+    {
+      "time": 1788877021.64774,
+      "file": "main.py",
+      "error": "\u001b(B\u001b)0\u001b[?1049h\u001b[1;24r\u001b[m\u000f\u001b[4l\u001b[?1l\u001b>\nTraceback (most recent call last):\n  File \"/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.13/curses/__init__.py\", line 78, in wrapper\n    cbreak()\n    ~~~~~~^^\n_curses.error: cbreak() returned ERR\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 203, in <module>\n    curses.wrapper(main)\n    ~~~~~~~~~~~~~~^^^^^^\n  File \"/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.13/curses/__init__.py\", line 100, in wrapper\n    nocbreak()\n    ~~~~~~~~^^\n_curses.error: nocbreak() returned ERR\n"
+    },
+    {
+      "time": 1788947114.8489804,
+      "file": "main.py",
+      "error": "GUI applications cannot be ran from terminal (e.g. REPL mode)\nUse IDE to run these applications\nThis is not a bug, please do not report it via email or Google Play reviews, thank you for your understanding\n\nTraceback (most recent call last):\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 172, in <module>\n    game.start()\n    ~~~~~~~~~~^^\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 82, in start\n    self._setup_gui()\n    ~~~~~~~~~~~~~~~^^\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 93, in _setup_gui\n    self.root.title(\"Snake\")\n    ~~~~~~~~~~~~~~~^^^^^^^^^\n  File \"/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.13/tkinter/__init__.py\", line 2429, in wm_title\n    return self.tk.call('wm', 'title', self._w, string)\n           ^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'call'\n"
+    },
+    {
+      "time": 1788947146.9632921,
+      "file": "main.py",
+      "error": "\nTraceback (most recent call last):\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 210, in <module>\n    game = SnakeGame()\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 78, in __init__\n    self.store = Store.create_default_store()\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: type object 'Store' has no attribute 'create_default_store'\n"
+    },
+    {
+      "time": 1788947194.6148438,
+      "file": "main.py",
+      "error": "GUI applications cannot be ran from terminal (e.g. REPL mode)\nUse IDE to run these applications\nThis is not a bug, please do not report it via email or Google Play reviews, thank you for your understanding\n\nTraceback (most recent call last):\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 212, in <module>\n    game.start()\n    ~~~~~~~~~~^^\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 85, in start\n    self._setup_gui()\n    ~~~~~~~~~~~~~~~^^\n  File \"/storage/emulated/0/0/projects/SnakeGame/main.py\", line 96, in _setup_gui\n    self.root.title(\"Snake\")\n    ~~~~~~~~~~~~~~~^^^^^^^^^\n  File \"/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.13/tkinter/__init__.py\", line 2429, in wm_title\n    return self.tk.call('wm', 'title', self._w, string)\n           ^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'call'\n"
+    }
+  ],
+  "Space_Shooter": [
+    {
+      "time": 1789142645.7633097,
+      "file": "",
+      "error": "\n\n----------------------------------------------------------------------\nRan 0 tests in 0.000s\n\nNO TESTS RAN\n"
+    },
+    {
+      "time": 1789142649.9601347,
+      "file": "",
+      "error": "\n\n----------------------------------------------------------------------\nRan 0 tests in 0.000s\n\nNO TESTS RAN\n"
+    },
+    {
+      "time": 1789142688.0145638,
+      "file": "",
+      "error": "\n\n----------------------------------------------------------------------\nRan 0 tests in 0.000s\n\nNO TESTS RAN\n"
+    },
+    {
+      "time": 1789142719.9624622,
+      "file": "",
+      "error": "\n\n----------------------------------------------------------------------\nRan 0 tests in 0.000s\n\nNO TESTS RAN\n"
+    },
+    {
+      "time": 1789142760.3550942,
+      "file": "",
+      "error": "\n\n----------------------------------------------------------------------\nRan 0 tests in 0.000s\n\nNO TESTS RAN\n"
+    },
+    {
+      "time": 1789142853.5104837,
+      "file": "",
+      "error": "\n\n----------------------------------------------------------------------\nRan 0 tests in 0.000s\n\nNO TESTS RAN\n"
+    },
+    {
+      "time": 1789142861.461873,
+      "file": "",
+      "error": "\n\n----------------------------------------------------------------------\nRan 0 tests in 0.000s\n\nNO TESTS RAN\n"
+    }
+  ]
+}

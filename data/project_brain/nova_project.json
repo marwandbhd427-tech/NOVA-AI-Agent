@@ -1,0 +1,44 @@
+{
+  "project": "nova_project",
+  "features": [],
+  "decisions": [],
+  "history": [
+    {
+      "time": 1790802162.2027059,
+      "event": "created",
+      "details": "اعمل لي تطبيق ملاحظات للهاتف"
+    }
+  ],
+  "updated_at": 1790802162.4446332,
+  "files": [
+    "main.py",
+    "game.py",
+    "notes.db",
+    "requirements.txt",
+    "tests/test_main.py"
+  ],
+  "python_files": [
+    "main.py",
+    "game.py",
+    "tests/test_main.py"
+  ],
+  "functions": 23,
+  "classes": 6,
+  "imports": [
+    "dataclasses",
+    "kivy",
+    "os",
+    "random",
+    "sqlite3",
+    "sys",
+    "termios",
+    "time",
+    "tty",
+    "typing",
+    "unittest"
+  ],
+  "entrypoints": [
+    "main.py"
+  ],
+  "project_type": "game"
+}

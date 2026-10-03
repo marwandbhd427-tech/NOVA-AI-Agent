@@ -1,0 +1,20 @@
+{
+  "project": "Space_Shooter",
+  "features": [],
+  "decisions": [],
+  "history": [
+    {
+      "time": 1788949341.4153626,
+      "event": "created",
+      "details": "اعمل لعبة Space Shooter ببايثون"
+    }
+  ],
+  "updated_at": 1789142845.6952927,
+  "files": [],
+  "python_files": [],
+  "functions": 0,
+  "classes": 0,
+  "imports": [],
+  "entrypoints": [],
+  "project_type": "python"
+}
